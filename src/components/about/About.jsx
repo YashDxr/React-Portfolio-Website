@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../Resources/me-about.jpg'
+import ME from '../../Resources/about-me-removebg-preview.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -23,21 +23,21 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Years</small>
+              <small>2-Months Salesforce Developer Virtual Internship</small>
             </article>
             <article className="about__card">
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>Nil - Fresher</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>80+</small>
+              <small>5+</small>
             </article>
           </div>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis magni eveniet tenetur error est culpa ipsam in rem? Doloribus vero eius voluptates porro aliquid Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sint fuga omnis placeat provident tempora impedit.</p>
+          <p>Energetic Graduate with good knowledge in computer subjects, and ability to update and learn new concepts quickly and strong desire to work in the software technology field, ability to work in any environment, and possess good technical and analytical skills.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

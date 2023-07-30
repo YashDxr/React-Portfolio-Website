@@ -36,21 +36,21 @@ const Experience = () => {
               </div>
             </article>
 
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Novice</small>
               </div>
-            </article>
+            </article> */}
 
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
                 <small className="text-light">Novice</small>
               </div>
-            </article>
+            </article> */}
 
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -86,7 +86,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Php</h4>
+                <h4>ExpressJS</h4>
                 <small className="text-light">Novice</small>
               </div>
             </article>

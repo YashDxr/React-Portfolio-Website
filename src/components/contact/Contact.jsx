@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+import {BsInstagram} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 
 
@@ -32,22 +32,22 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>dummygator@gmail.com</h5>
-            <a href="mailto:dummygator@gmail.com" target='_blank'>Send a message</a>
+            <h5>yashsingh705@outlook.com</h5>
+            <a href="mailto:yashsingh05102002@outlook.com" target='_blank'>Send a message</a>
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>dummyGator</h5>
-            <a href="https://m.me/dummy.gator" target='_blank'>Send a message</a>
+            <BsInstagram className='contact__option-icon'/>
+            <h4>Instagram</h4>
+            <h5>yash05.singh</h5>
+            <a href="https://www.instagram.com/yash05.singh/" target='_blank'>Send a message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+91-1234567890</h5>
-            <a href="https://wa.me/+911234567890" target='_blank'>Send a message</a>
+            <h5>+91-6309849814</h5>
+            <a href="https://wa.me/+916309849814" target='_blank'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

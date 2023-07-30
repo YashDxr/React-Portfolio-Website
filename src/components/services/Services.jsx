@@ -11,29 +11,25 @@ const Services = () => {
         <div className='container services__container'>
           <article className="service">
             <div className="service__head">
-              <h3>UI/UX Design</h3>
+              <h3>Java Development</h3>
             </div>
 
             <ul className="service__list">
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Responsible for developing applications and software using the Java programming language</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Active throughout the entire development life cycle of a product or solution.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Ready for an entry-level Java position.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Bit of Java 2D game development Experience</p>
               </li>
             </ul>
           </article>
@@ -41,39 +37,35 @@ const Services = () => {
 
           <article className="service">
             <div className="service__head">
-              <h3>Web Development</h3>
+              <h3>Full Stack Web Development</h3>
             </div>
 
             <ul className="service__list">
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Can produce great solution for Web Application</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Worked on many projects for Full Stack Web Development</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Great knowledge about HTML/Pug/CSS/JS and ReactJS for Front End Development</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Good knowledge about NodeJs,Express framework for backend</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </li>
-              <li>
-                <BiCheck className='service__list-icon' />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Worked with both MongoDB and MySQL for backend database</p>
               </li>
             </ul>
           </article>
 
 
-          <article className="service">
+          {/* <article className="service">
             <div className="service__head">
               <h3>Content Creation</h3>
             </div>
@@ -100,7 +92,7 @@ const Services = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </li>
             </ul>
-          </article>
+          </article> */}
         </div>
     </section>
   )

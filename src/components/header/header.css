@@ -1,6 +1,8 @@
 header{
-    height: 100vh;
-    padding-top: 7rem;
+    /* height: 100vh; */
+    height: 120vh;
+    /* padding-top: 7rem; */
+    padding-top: 1rem;
     overflow: hidden;
 }
 .header__container{
@@ -38,7 +40,8 @@ header{
     height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;

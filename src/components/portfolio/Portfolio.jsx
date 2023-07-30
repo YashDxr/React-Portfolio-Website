@@ -11,44 +11,38 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+    title: 'Chat Application',
+    github: 'https://github.com/YashDxr/Chat-Application.git'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Charts templates & infographics in Figma',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/12670507-Charts-templates-infographics-in-Figma'
+    title: 'College Management System',
+    github: 'https://github.com/YashDxr/College_Management_System.git'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma dashboard UI kit for data design web apps',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21590546-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    title: 'Java 2D Game',
+    github: 'https://github.com/YashDxr/Java-2D-GAME.git'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Maintaining tasks and tracking progress',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+    title: 'Disease Tracking Map',
+    github: 'https://github.com/YashDxr/CoronaMAP.git'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Funnel charts collection and Hyper charts UI Kit',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/21613435-Funnel-charts-collection-Hyper-charts-UI-Kit'
+    title: 'Portfolio Website',
+    github: 'https://github.com/YashDxr/React-Portfolio-Website.git'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Figma components and widgets',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/20349199-Figma-components-and-widgets'
+    title: 'Dance Website using PUG',
+    github: 'https://github.com/YashDxr/DanceWeb.git'
   }
 ]
 
@@ -60,7 +54,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id,image,title,github,demo}) => {
+          data.map(({id,image,title,github}) => {
             return(
               <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -69,7 +63,6 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
             </article>
             )
