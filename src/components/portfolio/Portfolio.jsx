@@ -3,46 +3,52 @@ import './portfolio.css'
 import IMG1 from '../../Resources/portfolio1.jpg'
 import IMG2 from '../../Resources/portfolio2.jpg'
 import IMG3 from '../../Resources/portfolio3.jpg'
-import IMG4 from '../../Resources/portfolio4.jpg'
+import IMG4 from '../../Resources/Discuss.png'
 import IMG5 from '../../Resources/portfolio5.png'
-import IMG6 from '../../Resources/portfolio6.jpg'
+import IMG6 from '../../Resources/IMG6.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Chat Application',
-    github: 'https://github.com/YashDxr/Chat-Application.git'
+    github: 'https://github.com/YashDxr/Chat-Application.git',
+    website: 'https://yash-chatapp.online'
   },
   {
     id: 2,
     image: IMG2,
     title: 'College Management System',
-    github: 'https://github.com/YashDxr/College_Management_System.git'
+    github: 'https://github.com/YashDxr/College_Management_System.git',
+    website: ''
   },
   {
     id: 3,
     image: IMG3,
     title: 'Java 2D Game',
-    github: 'https://github.com/YashDxr/Java-2D-GAME.git'
+    github: 'https://github.com/YashDxr/Java-2D-GAME.git',
+    website: ''
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Disease Tracking Map',
-    github: 'https://github.com/YashDxr/CoronaMAP.git'
+    title: 'Discussion Forum',
+    github: 'https://github.com/YashDxr/Discussion-Forum',
+    website: 'http://yashmadeit.tech'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Portfolio Website',
-    github: 'https://github.com/YashDxr/React-Portfolio-Website.git'
+    github: 'https://github.com/YashDxr/React-Portfolio-Website.git',
+    website: 'https://yash-portfolio.online'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Dance Website using PUG',
-    github: 'https://github.com/YashDxr/DanceWeb.git'
+    title: 'Pizza-Website',
+    github: 'https://github.com/YashDxr/Pizza-Shop',
+    website: 'https://yashdxr.github.io/Pizza-Shop/'
   }
 ]
 
@@ -54,7 +60,7 @@ const Portfolio = () => {
 
       <div className='container portfolio__container'>
         {
-          data.map(({id,image,title,github}) => {
+          data.map(({id,image,title,github,website}) => {
             return(
               <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -62,7 +68,11 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
+                <a href={github} rel='noreferrer' className='btn' target='_blank'>Github</a>
+                {website === ''? <>Not deployed yet!</>
+                    :
+                  <a href={website} rel='noreferrer' className='btn' target='_blank'>Website</a>}
+                
               </div>
             </article>
             )
