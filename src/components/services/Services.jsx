@@ -21,15 +21,19 @@ const Services = () => {
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
+                <p>Strong grasp of OOPs concepts</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon' />
                 <p>Active throughout the entire development life cycle of a product or solution.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Ready for an entry-level Java position.</p>
+                <p>Preparing for an entry-level Java Developer position.</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Bit of Java 2D game development Experience</p>
+                <p>Unit testing using JUnit5 Jupiter</p>
               </li>
             </ul>
           </article>
@@ -37,29 +41,33 @@ const Services = () => {
 
           <article className="service">
             <div className="service__head">
-              <h3>Full Stack Web Development</h3>
+              <h3>Full Stack Development</h3>
             </div>
 
             <ul className="service__list">
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Can produce great solution for Web Application</p>
+                <p>Experience in developing web solutions using MERN stack</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Worked on many projects for Full Stack Web Development</p>
+                <p>Worked on multiple Full Stack projects</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Great knowledge about HTML/Pug/CSS/JS and ReactJS for Front End Development</p>
+                <p>Extensive knowledge of js functionalities and frontend libraries</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Good knowledge about NodeJs,Express framework for backend</p>
+                <p>High end grasp of backend tech for secure and optimal server</p>
               </li>
               <li>
                 <BiCheck className='service__list-icon' />
-                <p>Worked with both MongoDB and MySQL for backend database</p>
+                <p>Worked with multiple databases and versioning systems</p>
+              </li>
+              <li>
+                <BiCheck className='service__list-icon' />
+                <p>SPA & CBD. MVC architecture</p>
               </li>
             </ul>
           </article>
